@@ -3,7 +3,7 @@
     "version": "1.0.0",
     "scripts": {
         "postinstall": "cd server && npm install && npx prisma generate && cd ../client && npm install",
-        "build": "cd server && npx prisma db push && cd ../client && npm run build"
+        "build": "cd client && npm run build"
     },
     "dependencies": {
         "express": "^5.1.0",
