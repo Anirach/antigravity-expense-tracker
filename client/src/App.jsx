@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import ExpenseForm from './components/ExpenseForm';
 import ExpenseList from './components/ExpenseList';
 
-const API_URL = 'http://localhost:3000/api/expenses';
+const API_URL = '/api/expenses';
 
 function App() {
     const [expenses, setExpenses] = useState([]);
